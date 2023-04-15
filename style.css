@@ -1,0 +1,179 @@
+.contatiner{
+    width: 90%;
+    padding-left: 200px;
+    text-align: center;
+    
+}
+@font-face {
+    font-family: 'Cairo';
+    src: url('fonts/Cairo-Regular.ttf') format('truetype');
+  }
+
+.nevsection-container{
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+/* style btn */
+.visit-btn{
+    color:#000000;
+    text-decoration: none;
+    font-size:18px;
+    display: inline-block;
+    background: transparent;
+    border:1px solid #000000;
+    padding: 12px 16px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 30px;
+    font-family: 'Cairo', sans-serif;
+
+}
+/* motion btn */
+.visit-btn:hover{
+    border:1px solid #14078b;
+    background-color: #14078b;
+    transition:1s;
+}
+h1{
+    font-weight: 500;
+    font: bold;
+    font-size: 2em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Cairo', sans-serif;
+
+}
+.pricesection {
+    background: chocolate;
+    height: 2px;
+    width: 55px;
+    margin: 0 auto;
+    
+    font-family: 'Cairo', sans-serif;
+
+}
+.text-align{
+    text-align: center;
+}
+.contatiner1{
+    width: 90%;
+    padding-left: 200px;
+    text-align: center;
+    padding-bottom: 80px;
+    font-family: 'Cairo', sans-serif;
+
+}
+.map-container{
+        width: 80%;
+        align-self: center;
+        text-align: center;
+        padding-bottom: 80px;
+        border: 5px solid black;
+        font-family: 'Cairo', sans-serif;
+
+}
+h2{
+    font-size: 2em;
+    font-weight: 500px;
+    text-align: center;
+    margin: 2px;
+    padding: 5px;
+    text-shadow: cyan;
+    font-family: 'Cairo', sans-serif;
+    
+}
+.align-center{
+    margin: 300px 250px 500px 500px;
+}
+.service-area{
+    height: 200px;
+    width: auto;
+    background: cyan;
+    font-family: 'Cairo', sans-serif;
+    border: 2px solid black;
+    margin-top: 140px;
+}
+.align-button-center{
+    padding-top: 20px;
+    font-family: 'Cairo', sans-serif;
+}
+.contact-contianer{
+    font-family: 'Cairo', sans-serif;
+    align-self: center;
+    text-align: center;
+    width: 80% ;
+    display: block;
+    align-self: center;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px 10px 10px 200px;
+    
+}
+.map-container-5{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    font-family: 'Cairo', sans-serif;
+    border: 2px solid red;
+}
+.map-container-5 iframe{
+    left:0;
+    border: 2px solid red;
+    top:0;
+    height:100%;
+    width:100%;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Cairo', sans-serif;
+    position:absolute;
+}
+    .contact-map{
+        width: 80%;
+    margin-left: 100px;
+    font-family: 'Cairo', sans-serif;
+}
+.shop-container{
+    width: 80%;
+    margin-left: 150px;
+    font-family: 'Cairo', sans-serif;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+.shop-color{
+    background-color: rgb(245, 122, 0);
+    font-family: 'Cairo', sans-serif;
+}
+.area-map{
+    width: 80%;
+    margin-left: 100px;
+    font-family: 'Cairo', sans-serif;
+    margin-top: 50px;
+}
+.area-button{
+    font-family: 'Cairo', sans-serif;
+    margin: 10px 5px 5px 5px;
+}
+.ftp-map{
+    width: 70%;
+    font-family: 'Cairo', sans-serif;
+    margin-top: 150px;
+    margin-left: 250px;
+    margin-right: 20px;
+}
+@media screen and (max-width: 600px) {
+    /* Styles for mobile devices */
+    header .visit-btn .contatiner .contatiner1{
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    nav ul .visit-btn .contatiner .contatiner1{
+      flex-direction: column;
+      align-self: center;
+    }
+    nav li {
+      margin-bottom: 0.5em;
+    }
+  }
