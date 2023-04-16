@@ -11,7 +11,8 @@
 
 .nevsection-container{
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 110px;
+    /* margin-bottom: 0; */
 
 }
 /* style btn */
@@ -145,16 +146,7 @@ h2{
     background-color: rgb(245, 122, 0);
     font-family: 'Cairo', sans-serif;
 }
-.area-map{
-    width: 80%;
-    margin-left: 100px;
-    font-family: 'Cairo', sans-serif;
-    margin-top: 50px;
-}
-.area-button{
-    font-family: 'Cairo', sans-serif;
-    margin: 10px 5px 5px 5px;
-}
+
 .ftp-map{
     width: 70%;
     font-family: 'Cairo', sans-serif;
@@ -162,18 +154,9 @@ h2{
     margin-left: 250px;
     margin-right: 20px;
 }
-@media screen and (max-width: 600px) {
-    /* Styles for mobile devices */
-    header .visit-btn .contatiner .contatiner1{
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-    nav ul .visit-btn .contatiner .contatiner1{
-      flex-direction: column;
-      align-self: center;
-    }
-    nav li {
-      margin-bottom: 0.5em;
+@media screen and (max-width: 768px) {
+    /* styles for screens 768px and smaller */
+    .contatiner1 {
+        padding-left: 40px;
     }
   }
