@@ -3,7 +3,7 @@ var Network  = function(){
 	this.canvas 		= document.getElementById('network');
 	this.ctx 			= this.canvas.getContext('2d');
 	this.canvas.height 	= window.innerHeight;
-	this.canvas.width 	= window.innerWidth;
+	this.canvas.width 	= 1300;
 
 	this.aDots 			= [];
 	this.aLines 		= [];
@@ -166,23 +166,6 @@ Network.prototype.drawOverlay = function(){
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Network.prototype.update = function(){
 
 	for (var i = this.aDots.length - 1; i >= 0; i--) {
@@ -252,15 +235,6 @@ Network.prototype.stop = function(){
 	this.bRuning = false;
 
 }
-
-
-
-
-
-
-
-
-
 
 
 var Dot = function( mouse ){
@@ -350,17 +324,6 @@ Dot.prototype.draw = function( ctx ){
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 var Line  = function( dot1, dot2, dist, mDist ){
 
 	this.x1 = dot1.x;
@@ -397,10 +360,6 @@ Line.prototype.draw = function( ctx ){
 	ctx.closePath();
 
 }
-
-
-
-
 
 rand = function( min, max ){ return Math.random() * ( max - min) + min; };
 onresize = function () { oNetwork.canvas.width = window.innerWidth; oNetwork.canvas.height = window.innerHeight; oNetwork.getGrd(); };

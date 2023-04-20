@@ -1,301 +1,395 @@
-.contatiner{
-    width: 90%;
-    padding-left: 200px;
-    text-align: center;
-    
-}
-@font-face {
-    font-family: 'Cairo';
-    src: url('fonts/Cairo-Regular.ttf') format('truetype');
+  .contatiner{
+      width: 90%;
+      padding-left: 200px;
+      text-align: center;
+      
   }
-
-.nevsection-container{
-    text-align: center;
-    margin-bottom: 0px;
-    /* margin-bottom: 0; */
-
-}
-/* style btn */
-
-h1{
-    font-weight: 500;
-    font: bold;
-    font-size: 2em;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-family: 'Cairo', sans-serif;
-
-}
-.pricesection {
-    background: chocolate;
-    
-    height: 2px;
-    width: 55px;
-    margin: 0 auto;
-    
-    font-family: 'Cairo', sans-serif;
-
-}
-.text-align{
-    text-align: center;
-}
-.contatiner1{
-    width: 90%;
-    padding-left: 200px;
-    text-align: center;
-    padding-bottom: 80px;
-    font-family: 'Cairo', sans-serif;
-
-}
-.map-container{
-        width: 80%;
-        align-self: center;
-        text-align: center;
-        padding-bottom: 80px;
-        border: 5px solid black;
-        font-family: 'Cairo', sans-serif;
-
-}
-h2{
-    font-size: 2em;
-    font-weight: 500px;
-    text-align: center;
-    margin: 2px;
-    padding: 5px;
-    text-shadow: cyan;
-    font-family: 'Cairo', sans-serif;
-    
-}
-.align-center{
-    margin: 300px 250px 500px 500px;
-}
-.service-area{
-    height: 200px;
-    width: auto;
-    background: cyan;
-    font-family: 'Cairo', sans-serif;
-    border: 2px solid black;
-    margin-top: 140px;
-}
-.align-button-center{
-    padding-top: 20px;
-    font-family: 'Cairo', sans-serif;
-}
-.contact-contianer{
-    background: #000;
-    font-family: 'Cairo', sans-serif;
-    align-self: center;
-    text-align: center;
-    width: 80% ;
-    display: block;
-    align-self: center;
-    margin-bottom: 20px;
-    margin-right: 10px;
-    margin-left: 10px;
-    padding: 10px 10px 10px 200px;
-    
-}
-.map-container-5{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-    font-family: 'Cairo', sans-serif;
-    border: 2px solid red;
-}
-.map-container-5 iframe{
-    left:0;
-    border: 2px solid red;
-    top:0;
-    height:100%;
-    width:100%;
-    font-family: 'Cairo', sans-serif;
-    font-family: 'Cairo', sans-serif;
-    position:absolute;
-}
-    .contact-map{
-        width: 80%;
-    margin-left: 100px;
-    font-family: 'Cairo', sans-serif;
-}
-.shop-container{
-    width: 80%;
-    margin-left: 150px;
-    font-family: 'Cairo', sans-serif;
-    margin-top: 200px;
-    margin-bottom: 50px;
-}
-.shop-color{
-    background-color: rgb(245, 122, 0);
-    font-family: 'Cairo', sans-serif;
-}
-
-.ftp-map{
-    width: 70%;
-    font-family: 'Cairo', sans-serif;
-    margin-top: 150px;
-    margin-left: 250px;
-    margin-right: 20px;
-}
-@media screen and (max-width: 768px) {
-    /* styles for screens 768px and smaller */
-    .contatiner1 {
-        padding-left: 40px;
+  @font-face {
+      font-family: 'Cairo';
+      src: url('fonts/Cairo-Regular.ttf') format('truetype');
     }
+
+  .nevsection-container{
+      text-align: center;
+      margin-bottom: 0px;
+      /* margin-bottom: 0; */
+
   }
-  
-  body {
-      background: #000;
-  }
-  .shimmer {
-    
+  /* style btn */
+
+  h1{
+      font-weight: 500;
+      font: bold;
+      font-size: 2em;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-family: 'Cairo', sans-serif;
+      
+    }
+    .list-group{
     font-family: 'Cairo', sans-serif;
-    font-size: 2.4em;
-    margin: 0 auto;
-    padding: 0 0 0 0;
-    margin-bottom: 0;
-    text-align: center;
+    
+  }
+  .card-title{
+    font-family: 'Cairo', sans-serif;
+
+  }
+  .pricesection {
+      background: chocolate;
+      
+      height: 2px;
+      width: 55px;
+      margin: 0 auto;
+      
+      font-family: 'Cairo', sans-serif;
+      
+    }
+    .text-align{
+      text-align: center;
+      color: #fff;
+    }
+    .btn{
+      font-family: 'Cairo', sans-serif;
+
+    }
+
+  .contatiner1{
+      width: 90%;
+      padding-left: 200px;
+      text-align: center;
+      padding-bottom: 80px;
+      font-family: 'Cairo', sans-serif;
+
+  }
+  .map-container{
+          width: 80%;
+          align-self: center;
+          text-align: center;
+          padding-bottom: 80px;
+          border: 5px solid black;
+          font-family: 'Cairo', sans-serif;
+          
+        }
+        .mb-0{
+    font-family: 'Cairo', sans-serif;
+
+  }
+  h2{
+      font-size: 2em;
+      font-weight: 500px;
+      text-align: center;
+      margin: 2px;
+      padding: 5px;
+      text-shadow: cyan;
+      font-family: 'Cairo', sans-serif;
+      
+  }
+  .align-center{
+      margin: 300px 250px 500px 500px;
+  }
+  .service-area{
+      height: 200px;
+      width: auto;
+      background: cyan;
+      font-family: 'Cairo', sans-serif;
+      border: 2px solid black;
+      margin-top: 140px;
+  }
+  .align-button-center{
+      padding-top: 20px;
+      font-family: 'Cairo', sans-serif;
+  }
+  .contact-contianer{
+      background: #000;
+      font-family: 'Cairo', sans-serif;
+      align-self: center;
+      text-align: center;
+      width: 80% ;
+      display: block;
+      align-self: center;
+      margin-bottom: 20px;
+      margin-right: 10px;
+      margin-left: 10px;
+      padding: 10px 10px 10px 200px;
+      
+  }
+  .map-container-5{
+      overflow:hidden;
+      padding-bottom:56.25%;
+      position:relative;
+      height:0;
+      font-family: 'Cairo', sans-serif;
+      border: 2px solid red;
+  }
+  .map-container-5 iframe{
+      left:0;
+      border: 2px solid red;
+      top:0;
+      height:100%;
+      width:100%;
+      font-family: 'Cairo', sans-serif;
+      font-family: 'Cairo', sans-serif;
+      position:absolute;
+  }
+      .contact-map{
+          width: 80%;
+      margin-left: 100px;
+      font-family: 'Cairo', sans-serif;
+  }
+  .shop-container{
+      width: 80%;
+      margin-left: 150px;
+      font-family: 'Cairo', sans-serif;
+      margin-top: 200px;
+      margin-bottom: 50px;
+  }
+  .shop-color{
+      background-color: rgb(245, 122, 0);
+      font-family: 'Cairo', sans-serif;
+  }
+
+  .ftp-map{
+      width: 70%;
+      font-family: 'Cairo', sans-serif;
+      margin-top: 150px;
+      margin-left: 250px;
+      margin-right: 20px;
+  }
+  @media screen and (max-width: 768px) {
+      /* styles for screens 768px and smaller */
+      .contatiner1 {
+          padding-left: 40px;
+      }
+    
+    }
+    
+    body {
+        background: #000;
+    }
+
+
+    /* شمنتضر اختار الباقة */
+    .shimmer {
+      
+      font-family: 'Cairo', sans-serif;
+      font-size: 2.4em;
+      margin: 0 auto;
+      padding: 0 0 0 0;
+      margin-bottom: 0;
+      text-align: center;
+    }
+    p {
+      font-weight: 300;
+      font-size: 0.8em;
+      color: rgba(255, 255, 255, 0.65);
+      width: 500px;
+      text-align: justify;
+      line-height: 1.5em;
+      border-top: 1px dashed rgba(255, 255, 255, 0.2);
+      margin: 10px 0 0 5px;
+      padding-top: 10px;
+    }
+    p a {
+      text-decoration: none;
+      color: #fff;
+    }
+    p a:visted {
+      color: #fff;
+    }
+    .shimmer {
+      text-align: center;
+      color: rgba(255, 255, 255, 0.1);
+      background: linear-gradient(
+        to right,
+        #e05151 0%,
+        #2a77d6 16%,
+        #60d711 32%,
+        #eacd25 48%,
+        #9d3636 64%,
+        #2a77d6 80%,
+        #5eb524 100%
+      );
+    
+      background-size: 300% 300%;
+      background-repeat: no-repeat;
+      background-position: top left;
+      background-color: #222;
+      
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      background-clip: text;
+    
+      animation: shimmer infinite 3s linear;
+    }
+    
+    @keyframes shimmer {
+      0% {
+        background-position: top left;
+      }
+      100% {
+        background-position: top right;
+      }
+    }
+    
+  canvas {
+    position:relative;
+    z-index:0;
+    cursor:none;
+  }
+  @property --rotate {
+      syntax: "<angle>";
+      initial-value: 132deg;
+      inherits: false;
+    }
+    
+    :root {
+      --card-height: 65vh;
+      --card-width: calc(var(--card-height) / 1.5);
+    }
+
+    .card {
+      background: #191c29;
+      border-radius: 10px;
+      font-size: 1.5em;
+      color: #fff;
+      cursor: pointer;
+      font-family: 'Cairo', sans-serif;
+      /* font-family: cursive; */
+    }
+    
+    .card:hover {
+      color: rgb(88 199 250 / 100%);
+      transition: color 1s;
+    }
+    .card:hover:before, .card:hover:after {
+      animation: none;
+      opacity: 0;
+    }
+    
+    
+    .card::before {
+    
+      background-image: linear-gradient(
+        var(--rotate)
+        , #5ddcff, #3c67e3 43%, #4e00c2);
+    
+    }
+    
+    .card::after {
+      position: absolute;
+      content: "";
+      top: calc(var(--card-height) / 6);
+      left: 0;
+      right: 0;
+      z-index: -1;
+      height: 100%;
+      width: 100%;
+      transform: scale(0.8);
+      filter: blur(calc(var(--card-height) / 3));
+      background-image: linear-gradient(
+        var(--rotate)
+        , #5ddcff, #3c67e3 43%, #4e00c2);
+      animation: spin 2.5s linear infinite;
+    }
+    
+    @keyframes spin {
+      0% {
+        --rotate: 0deg;
+      }
+      100% {
+        --rotate: 360deg;
+      }
+    }
+    
+    a {
+      color: #ffffff;
+      text-decoration: none;
+      font-family: sans-serif;
+      font-weight: bold;
+      margin-top: 2rem;
+    }
+    header .container {
+      padding-top: 100px;
+      padding-bottom: 50px;
+    }
+ body {
+   overflow-x: hidden;
+   font-family: 'Cairo', sans-serif;
   }
   p {
-    font-weight: 300;
-    font-size: 0.8em;
-    color: rgba(255, 255, 255, 0.65);
-    width: 500px;
-    text-align: justify;
-    line-height: 1.5em;
-    border-top: 1px dashed rgba(255, 255, 255, 0.2);
-    margin: 10px 0 0 5px;
-    padding-top: 10px;
-  }
-  p a {
-    text-decoration: none;
-    color: #fff;
-  }
-  p a:visted {
-    color: #fff;
-  }
-  .shimmer {
-    text-align: center;
-    color: rgba(255, 255, 255, 0.1);
-    background: linear-gradient(
-      to right,
-      #e05151 0%,
-      #2a77d6 16%,
-      #60d711 32%,
-      #eacd25 48%,
-      #9d3636 64%,
-      #2a77d6 80%,
-      #5eb524 100%
-    );
-  
-    background-size: 300% 300%;
-    background-repeat: no-repeat;
-    background-position: top left;
-    background-color: #222;
-    
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-  
-    animation: shimmer infinite 3s linear;
-  }
-  
-  @keyframes shimmer {
-    0% {
-      background-position: top left;
-    }
-    100% {
-      background-position: top right;
-    }
-  }
-  
-
-
-
-
-
-
-
-
-canvas {
-	position:relative;
-	z-index:0;
-	cursor:none;
+    font-size: 20px;
+}
+p.small {
+  font-size: 16px;
+}
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #18BC9C;
+  outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Cairo', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+hr.star-light,
+hr.star-primary {
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  text-align: center;
+  max-width: 250px;
+  margin: 25px auto 30px;
+}
+hr.star-light:after,
+hr.star-primary:after {
+  content: "\f005";
+  font-family: 'Cairo', sans-serif;
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 2em;
+  padding: 0 0.25em;
+}
+hr.star-light {
+  border-color: white;
+}
+hr.star-light:after {
+  background-color: #18BC9C;
+  color: white;
+}
+hr.star-primary {
+  border-color: #2C3E50;
+}
+hr.star-primary:after {
+  background-color: white;
+  color: #2C3E50;
+}
+.img-centered {
+  margin: 0 auto;
+}
+header {
+  text-align: center;
+  background: #000000;
+  color: white;
 }
 
-
-
-
-@property --rotate {
-    syntax: "<angle>";
-    initial-value: 132deg;
-    inherits: false;
-  }
-  
-  :root {
-    --card-height: 65vh;
-    --card-width: calc(var(--card-height) / 1.5);
-  }
-
-  .card {
-    background: #191c29;
-    border-radius: 10px;
-    font-size: 1.5em;
-    color: #fff;
-    cursor: pointer;
-    font-family: cursive;
-  }
-  
-  .card:hover {
-    color: rgb(88 199 250 / 100%);
-    transition: color 1s;
-  }
-  .card:hover:before, .card:hover:after {
-    animation: none;
-    opacity: 0;
-  }
-  
-  
-  .card::before {
-  
-    background-image: linear-gradient(
-      var(--rotate)
-      , #5ddcff, #3c67e3 43%, #4e00c2);
-  
-  }
-  
-  .card::after {
-    position: absolute;
-    content: "";
-    top: calc(var(--card-height) / 6);
-    left: 0;
-    right: 0;
-    z-index: -1;
-    height: 100%;
-    width: 100%;
-    transform: scale(0.8);
-    filter: blur(calc(var(--card-height) / 5));
-    background-image: linear-gradient(
-      var(--rotate)
-      , #5ddcff, #3c67e3 43%, #4e00c2);
-    animation: spin 2.5s linear infinite;
-  }
-  
-  @keyframes spin {
-    0% {
-      --rotate: 0deg;
-    }
-    100% {
-      --rotate: 360deg;
-    }
-  }
-  
-  a {
-    color: #ffffff;
-    text-decoration: none;
-    font-family: sans-serif;
-    font-weight: bold;
-    margin-top: 2rem;
-  }
-
-  
+header .intro-text .name {
+  display: block;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: 'Cairo', sans-serif;
+  font-size: 2em;
+}
+header .intro-text .skills {
+  font-size: 1.25em;
+  font-weight: 300;
+}
